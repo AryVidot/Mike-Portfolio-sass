@@ -38,6 +38,9 @@
     &.open {
       transform: rotate(720deg);
       background-color: transparent;
+      &::before {
+        transform: rotate(45deg) translate(5px, 8px);
+      }
     }
   }
 }
